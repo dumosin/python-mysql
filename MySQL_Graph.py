@@ -9,7 +9,7 @@ py.sign_in("******","******")
 conn = MySQLdb.connect(host="localhost", user="root", passwd="123456", db="world")
 cursor = conn.cursor()
 
-sql = "select Name, Continent, Population, LifeExpectancy, GNP from Country"
+sql = 'select Name, Continent, Population, LifeExpectancy, GNP from Country'
 cursor.execute(sql)
 rows = cursor.fetchall()
 str(rows[0:300])

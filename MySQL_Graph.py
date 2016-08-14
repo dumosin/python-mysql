@@ -4,7 +4,7 @@ import MySQLdb
 import pandas as pd
 import plotly.plotly as py
 from plotly.graph_objs import *
-py.sign_in("dumosin","Iamhacker1992!")
+py.sign_in("dumosin","******")
 
 conn = MySQLdb.connect(host="localhost", user="root", passwd="123456", db="world")
 cursor = conn.cursor()
